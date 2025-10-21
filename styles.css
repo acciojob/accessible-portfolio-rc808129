@@ -1,2 +1,55 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif; /* Font family set karna */
+    margin: 0; /* Default margin ko remove karna */
+    padding: 0; /* Default padding ko remove karna */
+    background-color: #f4f4f4; /* Background color set karna */
+}
+
+h1 {
+    text-align: center; /* Center alignment for heading */
+    color: #333; /* Heading color */
+}
+
+nav {
+    background-color: #333; /* Navigation background color */
+    color: white; /* Text color in navigation */
+    padding: 10px; /* Padding for navigation */
+}
+
+nav ul {
+    list-style: none; /* Bullet points remove karna */
+    padding: 0; /* Padding ko remove karna */
+}
+
+nav ul li {
+    display: inline; /* Inline display for list items */
+    margin-right: 20px; /* Right margin for spacing */
+}
+
+nav a {
+    color: white; /* Link color */
+    text-decoration: none; /* Underline remove karna */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Hover effect for links */
+}
+
+img {
+    display: block; /* Image ko block element banana */
+    margin: 20px auto; /* Center alignment for image */
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+ul {
+    padding: 20px; /* Padding for the list */
+    background-color: white; /* Background color for list */
+    border-radius: 5px; /* Rounded corners */
+}
+
+li {
+    margin: 10px 0; /* Margin for list items */
+}
